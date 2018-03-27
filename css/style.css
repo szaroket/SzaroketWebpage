@@ -2,20 +2,56 @@ body {
   background-color: #333333;
 }
 .header {
-  height: 100%;
-  width: 100%;
-  display: table;
+  margin: auto;
+  padding-top: 30vh;
 }
 .header__logo {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-40%);
-}
-.header__logo h1 {
   color: white;
   font-family: Yesteryear;
-  font-size: 100px;
-  font-weight: 10;
+  font-size: 120px;
   text-align: center;
+  letter-spacing: 20px;
+}
+.postscript {
+  margin-bottom: 20px;
+}
+.postscript__logo {
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: 150;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.buttons {
+  text-align:center;
+}
+.btn {
+  justify-content: center;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 3px;
+  margin-left: 8px;
+  position:relative;
+}
+@media (max-width:768px) {
+  .header__logo {
+    font-size: 80px;
+  }
+  .postscript__logo {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }
