@@ -42,6 +42,10 @@ body {
   margin-left: 8px;
   position:relative;
 }
+.btn:hover {
+  background-color: white;
+  color: black;
+}
 @media (max-width:768px) {
   .header__logo {
     font-size: 80px;
