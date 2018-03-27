@@ -1,0 +1,21 @@
+body {
+  background-color: #333333;
+}
+.header {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.header__logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40%);
+}
+.header__logo h1 {
+  color: white;
+  font-family: Yesteryear;
+  font-size: 100px;
+  font-weight: 10;
+  text-align: center;
+}
