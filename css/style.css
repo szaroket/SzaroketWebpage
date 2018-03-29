@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  -moz-box-sizing: border-box; /* mozilla firefox */
+  -ms-box-sizing: border-box; /* internet explorer */
+  -webkit-box-sizing: border-box; /* safari, chrome, opera */
+}
 body {
   background-color: #333333;
 }
