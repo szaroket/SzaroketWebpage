@@ -190,6 +190,9 @@ body {
   }
 }
 @media (max-width:560px) {
+  .header {
+    padding-top: 20vh;
+  }
   .header__logo {
     font-size: 70px;
   }
