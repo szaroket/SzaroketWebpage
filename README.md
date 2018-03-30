@@ -1,7 +1,7 @@
 
 # **Szaroket Webpage**
 
-## --PROJECT IN PROGRESS--
+### --PROJECT IN PROGRESS--
 
 ## **About the project**
 
@@ -13,4 +13,4 @@ After doing a static page I will be doing a dynamic website (probably using Node
 
 ## **The appearance of the current site**
 
-First demo can be found [here] (https://szaroket.github.io/SzaroketWebpage/)
+First demo can be found [here](https://szaroket.github.io/SzaroketWebpage/)
