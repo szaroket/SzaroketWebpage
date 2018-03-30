@@ -1,0 +1,10 @@
+.header-contact {
+  margin: auto;
+  padding-top: 3vh;
+}
+.header-contact__logo {
+  color: white;
+  font-family: Yesteryear;
+  font-size: 100px;
+  text-align: center;
+}
