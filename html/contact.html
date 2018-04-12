@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../css/start-page-style.css">
   <link rel="stylesheet" href="../css/header-style.css">
   <link rel="stylesheet" href="../css/humburger-menu.css">
+  <link rel="stylesheet" href="../css/contact-style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -36,6 +37,19 @@
           <div>
             <h1 class="header-contact__logo">Szaroket</h1>
             <hr class="line"/>
+          </div>
+          <div class="row contact-form">
+            <div class="col-sm-8 offset-sm-2 form-border">
+              <h1 class="form-header">Contact me</h1>
+              <form method="post" class="form" name="register-form">
+                <input type="text" class="form__username" name="username" placeholder="First Name" required />
+                <input type="password" class="form__password" name="password" placeholder="Last Name" required />
+                <input type="email" class="form__email" name="email" placeholder="Email" required />
+                <input type="password" class="form__password" name="confirm-password" placeholder="Subject" required />
+                <textarea cols="30" rows="8" placeholder="Type your message..." required></textarea>
+                <button type="submit" name="register-submit">Sign up</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
