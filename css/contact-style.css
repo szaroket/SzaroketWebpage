@@ -14,24 +14,34 @@
   padding: 1.5%;
 }
 .form-header {
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   font-size: 210%;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
+  color: white;
 }
 .form {
   background-color: rgba(255,255,255,0.4);
   border-radius: 5px;
   width: 100%;
-  padding: 3%;
+  padding: 4%;
 }
 input, textarea {
   display: block;
   border: 1px solid #dedede;
   border-radius: 2px;
   padding: 12px;
-  margin: 10px 0;
+  margin: 1.5% 0;
   width: 100%;
+  background-color: rgba(255,255,255,0.7);
+}
+.submit {
+  float: right;
+  animation: none;
+  -moz-animation: none;
+  -webkit-animation: none;
+  -o-animation: none;
+  margin: 0;
 }

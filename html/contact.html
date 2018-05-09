@@ -39,15 +39,15 @@
             <hr class="line"/>
           </div>
           <div class="row contact-form">
-            <div class="col-sm-8 offset-sm-2 form-border">
+            <div class="col-sm-6 offset-sm-3 form-border">
               <h1 class="form-header">Contact me</h1>
-              <form method="post" class="form" name="register-form">
+              <form method="post" name="register-form"> <!--class="form"-->
                 <input type="text" class="form__username" name="username" placeholder="First Name" required />
                 <input type="password" class="form__password" name="password" placeholder="Last Name" required />
                 <input type="email" class="form__email" name="email" placeholder="Email" required />
                 <input type="password" class="form__password" name="confirm-password" placeholder="Subject" required />
                 <textarea cols="30" rows="8" placeholder="Type your message..." required></textarea>
-                <button type="submit" name="register-submit">Sign up</button>
+                <button class="btn submit" type="submit" name="register-submit">Sign up</button>
               </form>
             </div>
           </div>
