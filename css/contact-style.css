@@ -45,3 +45,21 @@ input, textarea {
   -o-animation: none;
   margin: 0;
 }
+.form__firstname, .form__lastname {
+  background-image: url("images/user-name.png");
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  padding-left: 7%;
+}
+.form__email {
+  background-image: url("images/email.png");
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  padding-left: 7%;
+}
+.form__subject {
+  background-image: url("images/subject.png");
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  padding-left: 7%;
+}
